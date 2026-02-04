@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date, timedelta
 
-st.set_page_config(page_title="Habit Tracker", layout="centered")
+st.set_page_config(page_title="Task Tracker", layout="centered")
 
 # ------------------------
 # Helper functions
@@ -54,7 +54,7 @@ if "completions" not in st.session_state:
 # UI
 # ------------------------
 
-st.title("🔥 Habit Tracker")
+st.title("🔥 Task Tracker")
 
 today = date.today()
 
